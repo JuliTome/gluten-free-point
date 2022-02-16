@@ -81,7 +81,9 @@ a {
     width: 90%;
     margin: 50px;
     flex-wrap: wrap ;
+    
 }
+
 
 @media screen and (max-width: 480px) {
     .carrusel {
