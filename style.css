@@ -228,6 +228,11 @@ img {
 
 .item-destacados {
     padding: 40px;
+    transition: all 2s;
+}
+
+.item-destacados:hover {
+    transform: scale(1.5);
 }
 
 
