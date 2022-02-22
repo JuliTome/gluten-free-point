@@ -21,27 +21,34 @@
 }
 
 
+
 header, footer {
     background-color: #2a2931;
        
 }
 
-.header-container {
+.navbar{
     display: flex;
     justify-content: center;
 }
 
 
 
-.header {
+
+
+.collapse {
     display: flex;
-    font-family: 'Playfair Display', serif;
-    justify-content: space-around;
-    width: 50%;
-    padding-bottom: 15px;
-    
+    font-family: 'Playfair Display', serif ;
+    justify-content: space-around ;
         
 }
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
 @media screen and (max-width: 480px) {
     .header { 
         width: 100%;
