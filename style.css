@@ -21,6 +21,7 @@
 }
 
 
+
 header, footer {
     background-color: #2a2931;
        
@@ -32,6 +33,9 @@ header, footer {
 }
 
 
+
+
+
 .collapse {
     display: flex;
     font-family: 'Playfair Display', serif;
@@ -40,6 +44,7 @@ header, footer {
     padding-bottom: 15px;
         
 }
+
 
 
 
