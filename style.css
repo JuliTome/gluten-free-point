@@ -77,33 +77,22 @@ a {
 /* Main */
 
 /* sección uno*/
-
-.menu{
-    color: #ffffff;
+.carousel {
+    height: 50%;
+    display: flex ;
 }
 
-.section-container {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(250, 246, 246);
+@media screen and (max-width: 480px){
+    .carousel {
+        width: 100% ;
+    }   
 }
 
-
-
-
-@media screen and (max-width: 480px) {
-    .carrusel {
-        width: 100%;
-        margin: 0;
-    }
+.carousel-inner {
+    justify-content: center ;
 }
 
-
-
-
-
-
-img {
+img{
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -115,6 +104,8 @@ img {
         margin: 0;
     }
 }
+
+
 
 @media screen and (max-width: 480px) {
     .section-container { 
@@ -144,7 +135,7 @@ img {
 
 
 .services {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,6 +149,8 @@ img {
         flex-direction: column;
     }
 }
+
+
 
 @media screen and (max-width: 480px) {
     .services-item {
